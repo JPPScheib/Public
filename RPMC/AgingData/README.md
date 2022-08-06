@@ -21,7 +21,7 @@
 
 The data provided in this repository in conjunction with the publication and this readme file will enable the exact replication of the analyses performed in the publication.
 
-We provide the aggregated data used for RT analyses in .csv and .xlsx formats (see RT directory). 
+We provide the aggregated data used for RT analyses in .csv and .xlsx formats (see RT directory). Please note that in the .csv file (due to regional settings), semicolons are used as column separators and commas are used as decimal points. 
 
 Experiment control files and RT data, pre-processed for analysis with *fast-dm*, are provided in *fast-dm* compatible ASCII formats (see DDM directory). A download link to *fast-dm* windows binaries is provided in the  [Additional Links](#Links) section.
 
@@ -40,6 +40,11 @@ Experiment control files and RT data, pre-processed for analysis with *fast-dm*,
 
 ### Simulation Data Sets <a name="DDM_sim"></a>
 ...
+
+#### Experiment Control File
+```
+
+```
 
 
 
