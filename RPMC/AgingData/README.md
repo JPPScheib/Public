@@ -14,6 +14,8 @@
 3. [Drift Diffusion Modelling (DDM)](#DDM)
     1. [Initial Parameter Estimates](#DDM_est)
     2. [Simulation Data Sets](#DDM_sim)
+       1. Data set generation
+       2. Parameter estimation
 4. [Additional Links](#Links)  
 
 ## Overview <a name="overview"></a>
@@ -48,15 +50,29 @@ https://github.com/JPPScheib/Public/tree/master/RPMC/AgingData/RT
 ...
 
 ### Initial Parameter Estimates <a name="DDM_est"></a>
-...
+**Location:**
+
+**Experiment Control File:**
+```
+method	 ks
+precision	 5.0
+depends	 v	 TASK
+depends	 t0	 TASK
+depends  a   TASK
+depends st0 TASK
+depends sv TASK
+set	 zr	 0.5
+set	 szr	 0
+set d 	0
+format * TIME * TASK GRIP RESPONSE
+load	 "*.txt"
+log	 aging_REMASTER_indivs.lst
+```
 
 ### Simulation Data Sets <a name="DDM_sim"></a>
 ...
 
-#### Experiment Control File
-```
 
-```
 
 
 
